@@ -1,208 +1,312 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/main.css" />
     <title>Cabinet dentaire Loiseau</title>
     <script type="text/javascript" src="../js/crawler.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
 
 <!-- BARRE DE NAVIGATION ------------------>
 
-<br><br>
-<nav class="navbar navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"> Cabinet Loiseau</span></a>
+<br>
+
+<div class="bg-white">
+    <nav class="navbar navbar-custom navbar-fixed-top navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"> Cabinet Loiseau</span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#a_propos">A PROPOS</a></li>
+                    <li><a href="#horaires">HORAIRES</a></li>
+                    <li><a href="#dentistes">DENTISTES</a></li>
+                    <li><a href="#en_pratique">EN PRATIQUE</a></li>
+                    <li><a href="#enfants">SOINS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
         </div>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="#a_propos">A PROPOS</a></li>
-            <li><a href="#services">SERVICES</a></li>
-            <li><a href="#dentistes">DENTISTES</a></li>
-            <li><a href="#en_pratique">EN PRATIQUE</a></li>
-            <li><a href="#enfants">ENFANTS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-        </ul>
+    </nav>
+
+
+    <!-- BARRE DE NAVIGATION ------------------>
+
+    <br>
+
+    <!-- PHOTOS MOOVING      ------------------>
+    <div class="row">
+        <div class="marquee col-sm-12 col-md-12 col-sm-12 col-xs-12" id="mycrawler2">
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_rue_tour_en_bèche_3_4000_liege.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_acceuil.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_operation_01.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_attente_2.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_operation_02.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_de_jeux_pour_enfants.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_operation_03.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_des_radios.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_attente.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_operation_04.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_rue_tour_en_bèche_3_4000_liege.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_acceuil.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_operation_01.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_attente_2.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_operation_02.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_de_jeux_pour_enfants.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_operation_03.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_des_radios.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_attente.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_operation_04.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_rue_tour_en_bèche_3_4000_liege.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_acceuil.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_operation_01.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_attente_2.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_operation_02.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_de_jeux_pour_enfants.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_operation_03.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_des_radios.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_attente.JPG"/>
+            <img class="img-responsive" src="../img/cabinet_dentiste_loiseau_salle_d_operation_04.JPG"/>
+        </div>
     </div>
-</nav>
-
-<!-- BARRE DE NAVIGATION ------------------>
-
+</div>
+<!-- PHOTOS MOOVING      ------------------>
 
 <!-- A PROPOS ----------------------------->
 
-    <div class="row">
-        <div class="marquee col-sm-12 col-md-12 col-sm-12 col-xs-12 bg-first-3" id="mycrawler2">
-            <img src="../img/pano.jpeg"/>
-        </div>
-    </div>
-    <div id="a_propos" class="bg-first-2">
+<div class="bg-aqualicious text-very-clear tk-din-condensed-web">
+    <div id="a_propos">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                    <h1>A propos!</h1>
-                    <h2> Lorem ipsum dolor sit amet, in ut enim suspendisse mi nibh, feugiat ullamcorper arcu diam ut pede id. Sapien et malesuada sed suspendisse nibh. </h2>
-                    <h3> Felis labore, excepturi nullam eros lacus, placerat id fringilla, ut volutpat ligula, facilisi amet phasellus semper. </h3>
+                    <h1 id="json_welcome_01"></h1>
+                    <h2 id="json_intro_01"></h2>
+                    <br>
+                    <h2 id="json_intro_02"></h2>
+                    <img class="img-circle" src="../img/flag/es.png" alt="drapeau_espagnol" height="60" width="60"/>
+                    <img class="img-circle" src="../img/flag/fr.png" alt="drapeau_francais" height="60" width="60"/>
+                    <img class="img-circle" src="../img/flag/gb.png" alt="drapeau_anglais" height="60" width="60"/>
+                    <img class="img-circle" src="../img/flag/nl.png" alt="drapeau_neerlandais" height="60" width="60"/>
+                    <img class="img-circle" src="../img/flag/pt.png" alt="drapeau_portugais" height="60" width="60"/>
+                    <img class="img-circle" src="../img/flag/ro.png" alt="drapeau_roumain" height="60" width="60"/>
+                    <img class="img-circle" src="../img/flag/bg.png" alt="drapeau_bulgare" height="60" width="60"/>
+                    <img class="img-circle" src="../img/flag/ma.png" alt="drapeau_marrocain" height="60" width="60"/>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <!-- A PROPOS ----------------------------->
+
+    <hr>
+
+    <!-- horaires ----------------------------->
+
+
+    <div id="horaires">
+        <div class="container text-center">
+
+            <h2 id="json_horaire_01"></h2>
+            <i class="fa fa-clock-o fa-4x" aria-hidden="true"></i>
+            <h3 id="json_horaire_02"></h3>
+            <h3 id="json_horaire_03"></h3>
+            <br>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <h3><button class="btn-default" data-toggle="collapse" data-target="#json_sur_rdv_01"> Sur rendez-vous </button></h3>
+                    <h4 id="json_sur_rdv_01" class="collapse"></h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <h3><button class="btn-default" data-toggle="collapse" data-target="#json_sans_rdv_01"> Sans Rendez-vous </button></h3>
+                    <h4 id="json_sans_rdv_01" class="collapse"></h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <h3><button class="btn-default" data-toggle="collapse" data-target="#json_urgences_01"> Urgences </button></h3>
+                    <h4 id="json_urgences_01" class="collapse"></h4>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <h3><button class="btn-default" data-toggle="collapse" data-target="#json_orhodontie_01"> Orthodontie </button></h3>
+                    <h4 id="json_orhodontie_01" class="collapse"></h4>
                 </div>
             </div>
         </div>
     </div>
 
-<!-- A PROPOS ----------------------------->
+    <!-- horaires ----------------------------->
 
+    <hr>
 
-<!-- SERVICES ----------------------------->
+    <!-- DENTISTES ---------------------------->
 
-<div class="bg-first-3" id="services">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <h1>Sur rendez-vous</h1>
+    <div id="dentistes">
+        <div class="container">
+            <div class="row text-center">
+                <h2 id="json_dentiste_01">Dentistes</h2>
+                <i class="fa fa-female fa-4x" aria-hidden="true"></i>
+                <i class="fa fa-male fa-4x" aria-hidden="true"></i>
+                <br>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <h1>Sans Rendez-vous</h1>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <h1>Urgences</h1>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                <h1>Orthodontie</h1>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <h3>Résident</h3>
+                    <h4>Dentiste Loiseau</h4>
+                    <img src="../img/dentiste_Loiseau.jpeg" alt="image_du_dentiste_loiseau" class="img-rounded img-responsive personne"/>
+                    <br>
+                    <h4>Dentiste 2</h4>
+                    <br>
+                    <h4>Dentiste 3</h4>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <h3>Non résident</h3>
+                    <h4>Dentiste 1</h4>
+                    <br>
+                    <h4>Dentiste 2</h4>
+                    <br>
+                    <h4>Dentiste 3</h4>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- SERVICES ----------------------------->
+    <!-- DENTISTES ---------------------------->
 
+    <hr>
 
-<!-- DENTISTES ---------------------------->
+    <!-- EN PRATIQUE -------------------------->
 
-<div class="bg-first-1" id="dentistes">
-    <div class="container">
-        <div class="row">
-            <h1 class="text-center">Dentistes</h1>
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <h2>Résident</h2>
-                <h3>Dentiste Loiseau</h3>
-                <img src="../img/dentiste_Loiseau.jpeg" alt="image_du_dentiste_loiseau" class="img-rounded img-responsive personne"/>
+    <div id="en_pratique">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="text-center" id="json_pratique_01"></h2>
+                <i class="text-center fa fa-info fa-4x" aria-hidden="true"></i>
                 <br>
-                <h3>Dentiste 2</h3>
-                <br>
-                <h3>Dentiste 3</h3>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <h2>Non résident</h2>
-                <h3>Dentiste 1</h3>
-                <br>
-                <h3>Dentiste 2</h3>
-                <br>
-                <h3>Dentiste 3</h3>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- DENTISTES ---------------------------->
-
-
-<!-- EN PRATIQUE -------------------------->
-
-<div class="bg-first-2" id="en_pratique">
-    <div class="container">
-        <div class="row text-center">
-            <h1>En pratique</h1>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <h2>Qui paie quoi?</h2>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <h2>Statut mutuelle</h2>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <h2>En pratique</h2>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- EN PRATIQUE -------------------------->
-
-
-<!-- ENFANTS ------------------------------>
-
-<div class="bg-first-3" id="enfants">
-    <div class="container">
-        <div class="row text-center">
-            <h1>Les enfants</h1>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <h2>Les soins</h2>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <h2>Pourquoi le cabinet Loiseau?</h2>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- ENFANTS ------------------------------>
-
-
-<!-- CONTACT ------------------------------>
-
-<div class="bg-first-1" id="contact">
-    <div class="container">
-        <div class="row text-center">
-            <h1>Contact</h1>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <h2>Adresse</h2>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <h2>Parking</h2>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="row text-center">
-                        <h2>Google map</h2>
-                    </div>
-                    <div class="row">
-                        <div class="container" id="googleMap">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.461969566664!2d5.575793715922442!3d50.637110981778044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0fa065f20a397%3A0x7e8926f91a93e13a!2sCabinet+Dentaire+Loiseau+sprl!5e0!3m2!1sfr!2sbe!4v1496931161550" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>                        </div>
-                    </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h3>Qui paie quoi?</h3>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h3>Statut mutuelle</h3>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h3>En pratique</h3>
                 </div>
             </div>
-
-
         </div>
     </div>
-</div>
 
-<!-- CONTACT ------------------------------>
+    <!-- EN PRATIQUE -------------------------->
+
+    <hr>
+
+    <!-- SOINS ------------------------------>
+
+    <div id="enfants">
+        <div class="container">
+            <div class="row text-center">
+                <h2 id="json_care_01"></h2>
+                <i class="fa fa-medkit fa-4x" aria-hidden="true"></i>
+                <br>
+                <h3 id="json_care_02"></h3>
+                <h3 id="json_care_03"></h3>
+                <div class="row">
+                    <div class="col-xs-4 col-sm-4">
+                        <h4><button class="btn-default"> Les soins de préventions </button></h4>
+                    </div>
+                    <div class="col-xs-4 col-sm-4">
+                        <h4><button class="btn-default"> Les soins curatifs </button></h4>
+                    </div>
+                    <div class="col-xs-4 col-sm-4">
+                        <h4><button class="btn-default"> L’orthodontie </button></h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- SOINS ------------------------------>
+
+    <hr>
+
+    <!-- CONTACT ------------------------------>
+
+    <div id="contact">
+        <div class="container text-center">
+            <h2 id="json_contact_01"></h2>
+            <i class="fa fa-envelope fa-4x" aria-hidden="true"></i>
+            <br>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <h3> Société Civile Cabinet Dentaire LOISEAU </h3>
+                    <h3> Rue Tour en bêche , 3 </h3>
+                    <h3> 4020 Liège</h3>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <h3><span class="glyphicon glyphicon-phone"></span> Tel: 32 (0) 4 342 26 26</h3>
+                    <h3><span class="glyphicon glyphicon-envelope"></span>  Email général: secretariat.loiseau@hotmail.com </h3>
+                    <h3><span class="glyphicon glyphicon-envelope"></span>  Email ortho: ortho.loiseau@hotmail.com </h3>
+                </div>
+            </div>
+            <br>
+            <div class="row text-center">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h2>Parking</h2>
+                    <i class="fa fa-car fa-4x" aria-hidden="true"></i>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="row text-center">
+                            <h2>Google map</h2>
+                        </div>
+                        <div class="row">
+                            <div class="container" id="googleMap">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.461969566664!2d5.575793715922442!3d50.637110981778044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0fa065f20a397%3A0x7e8926f91a93e13a!2sCabinet+Dentaire+Loiseau+sprl!5e0!3m2!1sfr!2sbe!4v1496931161550" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>                        </div>
+                        </div>
+                    </div>
+                </div>
 
 
-<!-- FOOTER ------------------------------->
+            </div>
+        </div>
+    </div>
 
-<footer class="text-center">
-    <a class="up-arrow" href="#a_propos" data-toggle="tooltip" title="TO TOP">
-        <span class="glyphicon glyphicon-chevron-up"></span>
-    </a>
-    <p>Copyright &copy; 2017 Cabinet dentaire Loiseau - Tous droits réservés</p>
-    <a href="mailto:greg_p_ramos@yahoo.com">Web design by Greg P. Ramos</a>
-</footer>
 
-<!-- FOOTER ------------------------------->
 
+    <!-- CONTACT ------------------------------>
+
+    <br>
+
+    <!-- FOOTER ------------------------------->
+
+    <footer class="text-center">
+        <a class="up-arrow" href="#a_propos" data-toggle="tooltip" title="TO TOP">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Copyright &copy; 2017 Cabinet dentaire Loiseau - Tous droits réservés</p>
+        <a href="mailto:greg_p_ramos@yahoo.com">Web design by Greg P. Ramos</a>
+    </footer>
+
+    <!-- FOOTER ------------------------------->
+</>
 
 
 <!-- SCRIPTS ------------------------------>
@@ -216,6 +320,27 @@
             moveatleast: 2,
             neutral: 150,
             savedirection: true
+        });
+    </script>
+
+    <script>
+        $.getJSON('../json/main.json', function( data ) {
+            $('#json_welcome_01').html(data.json_welcome_01);
+            $('#json_intro_01').html(data.json_intro_01);
+            $('#json_intro_02').html(data.json_intro_02);
+            $('#json_horaire_01').html(data.json_horaire_01);
+            $('#json_horaire_02').html(data.json_horaire_02);
+            $('#json_horaire_03').html(data.json_horaire_03);
+            $('#json_sur_rdv_01').html(data.json_sur_rdv_01);
+            $('#json_sans_rdv_01').html(data.json_sans_rdv_01);
+            $('#json_urgences_01').html(data.json_urgences_01);
+            $('#json_dentiste_01').html(data.json_dentiste_01);
+            $('#json_care_01').html(data.json_care_01);
+            $('#json_care_02').html(data.json_care_02);
+            $('#json_care_03').html(data.json_care_03);
+            $('#json_contact_01').html(data.json_contact_01);
+            $('#json_pratique_01').html(data.json_pratique_01);
+
         });
     </script>
 
