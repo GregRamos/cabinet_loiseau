@@ -10,11 +10,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
 </head>
-<body>
 
-<!-- BARRE DE NAVIGATION ------------------>
+    <!-- BARRE DE NAVIGATION ------------------>
 
 <br>
 
@@ -35,7 +34,7 @@
                     <li><a href="#horaires">HORAIRES</a></li>
                     <li><a href="#dentistes">DENTISTES</a></li>
                     <li><a href="#en_pratique">EN PRATIQUE</a></li>
-                    <li><a href="#enfants">SOINS</a></li>
+                    <li><a href="#soins">SOINS</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
@@ -90,12 +89,13 @@
 
 <!-- A PROPOS ----------------------------->
 
-<div class="bg-aqualicious text-very-clear tk-din-condensed-web">
+<div class="bg-aqualicious text-black police">
     <div id="a_propos">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                    <h1 id="json_welcome_01"></h1>
+                    <h1 id="json_welcome_01" class=" text-very-clear"></h1>
+                    <i class="fa fa-home fa-4x text-very-clear" aria-hidden="true"></i>
                     <h2 id="json_intro_01"></h2>
                     <br>
                     <h2 id="json_intro_02"></h2>
@@ -110,7 +110,7 @@
                 </div>
             </div>
         </div>
-        </div>
+    </div>
 
     <!-- A PROPOS ----------------------------->
 
@@ -122,26 +122,26 @@
     <div id="horaires">
         <div class="container text-center">
 
-            <h2 id="json_horaire_01"></h2>
-            <i class="fa fa-clock-o fa-4x" aria-hidden="true"></i>
+            <h2 id="json_horaire_01" class=" text-very-clear"></h2>
+            <i class="fa fa-clock-o fa-4x text-very-clear" aria-hidden="true"></i>
             <h3 id="json_horaire_02"></h3>
             <h3 id="json_horaire_03"></h3>
             <br>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <h3><button class="btn-default" data-toggle="collapse" data-target="#json_sur_rdv_01"> Sur rendez-vous </button></h3>
+                    <h3><button class="btn btn-default btn-lg" data-toggle="collapse" data-target="#json_sur_rdv_01"> Sur rendez-vous </button></h3>
                     <h4 id="json_sur_rdv_01" class="collapse"></h4>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <h3><button class="btn-default" data-toggle="collapse" data-target="#json_sans_rdv_01"> Sans Rendez-vous </button></h3>
+                    <h3><button class="btn btn-default btn-lg" data-toggle="collapse" data-target="#json_sans_rdv_01"> Sans Rendez-vous </button></h3>
                     <h4 id="json_sans_rdv_01" class="collapse"></h4>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <h3><button class="btn-default" data-toggle="collapse" data-target="#json_urgences_01"> Urgences </button></h3>
+                    <h3><button class="btn btn-default btn-lg" data-toggle="collapse" data-target="#json_urgences_01"> Urgences </button></h3>
                     <h4 id="json_urgences_01" class="collapse"></h4>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <h3><button class="btn-default" data-toggle="collapse" data-target="#json_orhodontie_01"> Orthodontie </button></h3>
+                    <h3><button class="btn btn-default btn-lg" data-toggle="collapse" data-target="#json_orhodontie_01"> Orthodontie </button></h3>
                     <h4 id="json_orhodontie_01" class="collapse"></h4>
                 </div>
             </div>
@@ -157,29 +157,204 @@
     <div id="dentistes">
         <div class="container">
             <div class="row text-center">
-                <h2 id="json_dentiste_01">Dentistes</h2>
-                <i class="fa fa-female fa-4x" aria-hidden="true"></i>
-                <i class="fa fa-male fa-4x" aria-hidden="true"></i>
-                <br>
+                <h2 id="json_dentiste_01" class=" text-very-clear"></h2>
+                <i class="fa fa-female fa-4x text-very-clear" aria-hidden="true"></i>
+                <i class="fa fa-male fa-4x text-very-clear" aria-hidden="true"></i>
+                <br><br>
             </div>
 
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <h3>Résident</h3>
-                    <h4>Dentiste Loiseau</h4>
-                    <img src="../img/dentiste_Loiseau.jpeg" alt="image_du_dentiste_loiseau" class="img-rounded img-responsive personne"/>
-                    <br>
-                    <h4>Dentiste 2</h4>
-                    <br>
-                    <h4>Dentiste 3</h4>
+            <div class="text-center">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal01">Pierre-Yves Loiseau</button></h3>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <h3>Non résident</h3>
-                    <h4>Dentiste 1</h4>
-                    <br>
-                    <h4>Dentiste 2</h4>
-                    <br>
-                    <h4>Dentiste 3</h4>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal02">Dan Teglas</button></h3>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal03">Pedro Gomez da silva maia</button></h3>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal04">Seyde Ismailova</button></h3>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal05">Ingrid Gaftoi</button></h3>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal06">Lucien Fat</button></h3>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal07">Anna Dhzunilova</button></h3>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal08">Adrian Purdea</button></h3>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal09">Monika Rachieru</button></h3>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal10">Agatha ?</button></h3>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal01" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Dentiste et orthodontiste</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Résident</p>
+                        </div>
+                        <img src="../img/dentiste_Loiseau.jpeg" alt="image_du_dentiste_loiseau" class="img-rounded img-responsive personne"/>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal02" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Dentiste</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Résident</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal03" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Dentiste</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Résident</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal04" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Dentiste et orthodontiste</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Résident</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal05" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Dentiste</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Non Résident</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal06" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Dentiste</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Non Résident</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal07" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Dentiste</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Non Résident</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal08" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Dentiste</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Non Résident</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal09" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Dentiste</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Non Résident</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal10" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Dentiste</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Non Résident</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -194,8 +369,8 @@
     <div id="en_pratique">
         <div class="container">
             <div class="row text-center">
-                <h2 class="text-center" id="json_pratique_01"></h2>
-                <i class="text-center fa fa-info fa-4x" aria-hidden="true"></i>
+                <h2 class="text-center text-very-clear" id="json_pratique_01"></h2>
+                <i class="text-center fa fa-info fa-4x text-very-clear" aria-hidden="true"></i>
                 <br>
             </div>
             <div class="row">
@@ -218,23 +393,96 @@
 
     <!-- SOINS ------------------------------>
 
-    <div id="enfants">
+    <div id="soins">
         <div class="container">
             <div class="row text-center">
-                <h2 id="json_care_01"></h2>
-                <i class="fa fa-medkit fa-4x" aria-hidden="true"></i>
+                <h2 id="json_care_01" class="text-very-clear"></h2>
+                <i class="fa fa-medkit fa-4x text-very-clear" aria-hidden="true"></i>
                 <br>
                 <h3 id="json_care_02"></h3>
                 <h3 id="json_care_03"></h3>
                 <div class="row">
                     <div class="col-xs-4 col-sm-4">
-                        <h4><button class="btn-default"> Les soins de préventions </button></h4>
+                        <h4><button class="btn btn-default btn-lg" data-toggle="modal" data-target="#soins01"> Les soins de préventions </button></h4>
                     </div>
                     <div class="col-xs-4 col-sm-4">
-                        <h4><button class="btn-default"> Les soins curatifs </button></h4>
+                        <h4><button class="btn btn-default btn-lg" data-toggle="modal" data-target="#soins02"> Les soins curatifs </button></h4>
                     </div>
                     <div class="col-xs-4 col-sm-4">
-                        <h4><button class="btn-default"> L’orthodontie </button></h4>
+                        <h4><button class="btn btn-default btn-lg" data-toggle="modal" data-target="#soins03"> L’orthodontie </button></h4>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="soins01" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Les soins de préventions</h4>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="bg-info">Moins de 18 ans</b></ul>
+                                <li>Deux fois par an , l’examen buccal  pour les jeunes entre 15 ans et 18 ans( moins un jour).
+                                    En effet, sans ce contrôle semestriel, l’Inami remboursera moins l’année suivante.</li>
+                                <li>Les scellements de sillons ( à mettre dans la section -de 18 ans svp).</li>
+                                <li>Le nettoyage prophylactique</li>
+                                <br>
+                                <ul class="bg-info">A partir de 18 ans</ul>
+                                <li>L’examen Annuel sans lequel la mutuelle rembourse moins les soins l’année suivante.
+                                    ( c’est dommage étant donnée que celui-ci est remboursé intégralement si il est fait chaque année ) .</li>
+                                <li>Le détartrage. </li>
+                                <li>Le DPSI. Examination des gencives et d’éventuel déchaussement.</li>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="soins02" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Les soins de préventions</h4>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="bg-info">Qu'est ce que c’est ?</b></ul>
+                                <li>Info bientôt en ligne, nous sommes disponible par téléphone au 32 (0) 4 342 26 26 pour vos questions</li>
+                                <li>...</li>
+                                <li>...</li>
+                                <br>
+                                <ul class="bg-info">Pour qui?</ul>
+                                <li>Info bientôt en ligne, nous sommes disponible par téléphone au 32 (0) 4 342 26 26 pour vos questions</li>
+                                <li>...</li>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="soins03" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Les soins de préventions</h4>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="bg-info">Qu'est ce que c’est ?</b></ul>
+                                <li>Info bientôt en ligne, nous sommes disponible par téléphone au 32 (0) 4 342 26 26 pour vos questions</li>
+                                <li>...</li>
+                                <li>...</li>
+                                <br>
+                                <ul class="bg-info">Pour qui?</ul>
+                                <li>Avant 8 ans 1/2 traitement de première intention</li>
+                                <li>Avant 15 ans traitement régulier</li>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -250,8 +498,8 @@
 
     <div id="contact">
         <div class="container text-center">
-            <h2 id="json_contact_01"></h2>
-            <i class="fa fa-envelope fa-4x" aria-hidden="true"></i>
+            <h2 id="json_contact_01" class="text-very-clear"></h2>
+            <i class="fa fa-envelope fa-4x text-very-clear" aria-hidden="true" text-very-clear></i>
             <br>
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -260,22 +508,22 @@
                     <h3> 4020 Liège</h3>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <h3><span class="glyphicon glyphicon-phone"></span> Tel: 32 (0) 4 342 26 26</h3>
-                    <h3><span class="glyphicon glyphicon-envelope"></span>  Email général: secretariat.loiseau@hotmail.com </h3>
-                    <h3><span class="glyphicon glyphicon-envelope"></span>  Email ortho: ortho.loiseau@hotmail.com </h3>
+                    <h3><span class="glyphicon glyphicon-phone text-very-clear"></span> Tel: 32 (0) 4 342 26 26</h3>
+                    <h3><span class="glyphicon glyphicon-envelope text-very-clear"></span>  Email général: secretariat.loiseau@hotmail.com </h3>
+                    <h3><span class="glyphicon glyphicon-envelope text-very-clear"></span>  Email ortho: ortho.loiseau@hotmail.com </h3>
                 </div>
             </div>
             <br>
             <div class="row text-center">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2>Parking</h2>
-                    <i class="fa fa-car fa-4x" aria-hidden="true"></i>
+                    <h2 class="text-very-clear">Parking</h2>
+                    <i class="fa fa-car fa-4x text-very-clear" aria-hidden="true"></i>
                 </div>
 
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="row text-center">
-                            <h2>Google map</h2>
+                            <h2 class="text-very-clear">Google map</h2>
                         </div>
                         <div class="row">
                             <div class="container" id="googleMap">
@@ -306,7 +554,7 @@
     </footer>
 
     <!-- FOOTER ------------------------------->
-</>
+
 
 
 <!-- SCRIPTS ------------------------------>
@@ -334,17 +582,24 @@
             $('#json_sur_rdv_01').html(data.json_sur_rdv_01);
             $('#json_sans_rdv_01').html(data.json_sans_rdv_01);
             $('#json_urgences_01').html(data.json_urgences_01);
+            $('#json_orhodontie_01').html(data.json_orhodontie_01);
             $('#json_dentiste_01').html(data.json_dentiste_01);
             $('#json_care_01').html(data.json_care_01);
             $('#json_care_02').html(data.json_care_02);
             $('#json_care_03').html(data.json_care_03);
             $('#json_contact_01').html(data.json_contact_01);
             $('#json_pratique_01').html(data.json_pratique_01);
+        });
+    </script>
 
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();
         });
     </script>
 
 <!-- SCRIPTS ------------------------------>
 
+</div>
 </body>
 </html>

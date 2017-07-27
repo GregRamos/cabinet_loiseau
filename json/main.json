@@ -1,5 +1,5 @@
 {
-	"json_welcome_01" : "Bienvenue au cabinet dentaire Loiseau | Welcome to Loiseau's dental office",
+	"json_welcome_01" : "Cabinet dentaire Loiseau | Loiseau's dental office",
 	"json_intro_01" : "Le cabinet Loiseau fut crée en….., il se compose de 7 cabinets, deux salles de radios équipées d’une pano et une d’entre elle est équipée également d’une radio pour les télé2. <br><br>Certains de nos dentistes sont résidents et les autres sont remplaçants. ",
   	"json_intro_02" : "Nos dentistes parlent | Our dentists speak",
   	"json_horaire_01" : "Horaires | Schedule",
@@ -8,7 +8,7 @@
   	"json_sur_rdv_01" : "Tous les jours du lundi au vendredi de 9h à 18h30 ",
   	"json_sans_rdv_01" : "Tous les jours du lundi au vendredi de 9h à 18h30. <br>Il existe deux permanences par jour + le samedi matin de 8h30 à 12h30. ( inscription dès 8h30).  <br>Inscription aux sans rendez-vous à partir de 8h30 le matin et dès 12h30 pour l’après-midi.",
   	"json_urgences_01" : "Tous les jours, nous vous recevons dès 8h30 du lundi au vendredi ainsi que dès 12h30 l’après-midi. <br>Le samedi, la permanence est organisée le matin uniquement.  <br><br>Et si j’ai mal la nuit ?  <br>Une permanence téléphonique est organisée et, selon les disponibilités au moment de votre appel nous vous recevrons. ",
-  	"json_orhodontie_01" : " ",
+  	"json_orhodontie_01" : "Info bientôt en ligne, nous sommes disponible par téléphone au 32 (0) 4 342 26 26 pour vos questions",
 	"json_dentiste_01" : "Les dentistes | The dentists",
 	"json_care_01" : "Les soins | The cares",
 	"json_care_02" : "Quels types de soins sont prodigués au cabinet Loiseau ?  Outre les urgences, nous faisons <strong>les soins de préventions</strong>, <strong>les soins curatifs</strong> et <strong>l’orthodontie.</strong>",
