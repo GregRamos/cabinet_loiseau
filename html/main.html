@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <title>La dentisterie sociale Loiseau pour des soins dentaires traditionnels et l'orthodontie</title>
+    <meta name="description" content="Située en Outremeuse à Liège, la dentisterie sociale Loiseau dispose d'une grande équipe de dentistes et orthodentistes ainsi que d'un parking gratuit. "/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/main.css" />
@@ -33,9 +35,10 @@
                     <li><a href="#a_propos">A PROPOS</a></li>
                     <li><a href="#horaires">HORAIRES</a></li>
                     <li><a href="#dentistes">DENTISTES</a></li>
-                    <li><a href="#en_pratique">EN PRATIQUE</a></li>
+                    <!--<li><a href="#en_pratique">EN PRATIQUE</a></li>-->
                     <li><a href="#soins">SOINS</a></li>
                     <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#parking">PARKING</a></li>
                 </ul>
             </div>
         </div>
@@ -94,9 +97,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                    <h1 id="json_welcome_01" class=" text-very-clear"></h1>
-                    <i class="fa fa-home fa-4x text-very-clear" aria-hidden="true"></i>
-                    <h2 id="json_intro_01"></h2>
+                    <h1 id="json_welcome_01" class=" text-very-clear slide"></h1>
+                    <i class="fa fa-home fa-4x text-very-clear slide" aria-hidden="true"></i>
+                    <h2 id="json_intro_01" itemprop="description"></h2>
                     <br>
                     <h2 id="json_intro_02"></h2>
                     <img class="img-circle" src="../img/flag/es.png" alt="drapeau_espagnol" height="60" width="60"/>
@@ -122,8 +125,8 @@
     <div id="horaires">
         <div class="container text-center">
 
-            <h2 id="json_horaire_01" class=" text-very-clear"></h2>
-            <i class="fa fa-clock-o fa-4x text-very-clear" aria-hidden="true"></i>
+            <h2 id="json_horaire_01" class="slideanim text-very-clear"></h2>
+            <i class="fa fa-clock-o fa-4x text-very-clear slideanim" aria-hidden="true"></i>
             <h3 id="json_horaire_02"></h3>
             <h3 id="json_horaire_03"></h3>
             <br>
@@ -157,42 +160,42 @@
     <div id="dentistes">
         <div class="container">
             <div class="row text-center">
-                <h2 id="json_dentiste_01" class=" text-very-clear"></h2>
-                <i class="fa fa-female fa-4x text-very-clear" aria-hidden="true"></i>
-                <i class="fa fa-male fa-4x text-very-clear" aria-hidden="true"></i>
+                <h2 id="json_dentiste_01" class="slideanim text-very-clear"></h2>
+                <i class="slideanim fa fa-female fa-4x text-very-clear" aria-hidden="true"></i>
+                <i class="slideanim fa fa-male fa-4x text-very-clear" aria-hidden="true"></i>
                 <br><br>
             </div>
 
             <div class="text-center">
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal01">Pierre-Yves Loiseau</button></h3>
+                    <h3><button type="button" class="btn btn-info btn-lg" itemprop="name" data-toggle="modal" data-target="#modal01">Pierre-Yves Loiseau</button></h3>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal02">Dan Teglas</button></h3>
+                    <h3><button type="button" class="btn btn-info btn-lg" itemprop="name"  data-toggle="modal" data-target="#modal02">Dan Teglas</button></h3>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal03">Pedro Gomez da silva maia</button></h3>
+                    <h3><button type="button" class="btn btn-info btn-lg" itemprop="name"  data-toggle="modal" data-target="#modal03">Pedro Gomez da silva maia</button></h3>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal04">Seyde Ismailova</button></h3>
+                    <h3><button type="button" class="btn btn-info btn-lg" itemprop="name"  data-toggle="modal" data-target="#modal04">Seyde Ismailova</button></h3>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal05">Ingrid Gaftoi</button></h3>
+                    <h3><button type="button" class="btn btn-info btn-lg" itemprop="name"  data-toggle="modal" data-target="#modal05">Ingrid Gaftoi</button></h3>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal06">Lucien Fat</button></h3>
+                    <h3><button type="button" class="btn btn-info btn-lg" itemprop="name"  data-toggle="modal" data-target="#modal06">Lucien Fat</button></h3>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal07">Anna Dhzunilova</button></h3>
+                    <h3><button type="button" class="btn btn-info btn-lg" itemprop="name"  data-toggle="modal" data-target="#modal07">Anna Dhzunilova</button></h3>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal08">Adrian Purdea</button></h3>
+                    <h3><button type="button" class="btn btn-info btn-lg" itemprop="name"  data-toggle="modal" data-target="#modal08">Adrian Purdea</button></h3>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal09">Monika Rachieru</button></h3>
+                    <h3><button type="button" class="btn btn-info btn-lg" itemprop="name"  data-toggle="modal" data-target="#modal09">Monika Rachieru</button></h3>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-                    <h3><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modal10">Agatha ?</button></h3>
+                    <h3><button type="button" class="btn btn-info btn-lg" itemprop="name"  data-toggle="modal" data-target="#modal10">Agatha ?</button></h3>
                 </div>
             </div>
 
@@ -201,7 +204,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Dentiste et orthodontiste</h4>
+                            <h4 class="modal-title" itemprop="jobbTitle">Dentiste et orthodontiste</h4>
                         </div>
                         <div class="modal-body">
                             <p>Résident</p>
@@ -218,7 +221,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Dentiste</h4>
+                            <h4 class="modal-title" itemprop="jobbTitle">Dentiste</h4>
                         </div>
                         <div class="modal-body">
                             <p>Résident</p>
@@ -234,7 +237,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Dentiste</h4>
+                            <h4 class="modal-title" itemprop="jobbTitle">Dentiste</h4>
                         </div>
                         <div class="modal-body">
                             <p>Résident</p>
@@ -250,7 +253,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Dentiste et orthodontiste</h4>
+                            <h4 class="modal-title" itemprop="jobbTitle">Dentiste et orthodontiste</h4>
                         </div>
                         <div class="modal-body">
                             <p>Résident</p>
@@ -266,7 +269,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Dentiste</h4>
+                            <h4 class="modal-title" itemprop="jobbTitle">Dentiste</h4>
                         </div>
                         <div class="modal-body">
                             <p>Non Résident</p>
@@ -282,7 +285,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Dentiste</h4>
+                            <h4 class="modal-title" itemprop="jobbTitle">Dentiste</h4>
                         </div>
                         <div class="modal-body">
                             <p>Non Résident</p>
@@ -298,7 +301,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Dentiste</h4>
+                            <h4 class="modal-title" itemprop="jobbTitle">Dentiste</h4>
                         </div>
                         <div class="modal-body">
                             <p>Non Résident</p>
@@ -314,7 +317,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Dentiste</h4>
+                            <h4 class="modal-title" itemprop="jobbTitle">Dentiste</h4>
                         </div>
                         <div class="modal-body">
                             <p>Non Résident</p>
@@ -330,7 +333,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Dentiste</h4>
+                            <h4 class="modal-title" itemprop="jobbTitle">Dentiste</h4>
                         </div>
                         <div class="modal-body">
                             <p>Non Résident</p>
@@ -346,7 +349,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Dentiste</h4>
+                            <h4 class="modal-title" itemprop="jobbTitle">Dentiste</h4>
                         </div>
                         <div class="modal-body">
                             <p>Non Résident</p>
@@ -364,13 +367,13 @@
 
     <hr>
 
-    <!-- EN PRATIQUE -------------------------->
+    <!--&lt;!&ndash; EN PRATIQUE &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;
 
     <div id="en_pratique">
         <div class="container">
             <div class="row text-center">
-                <h2 class="text-center text-very-clear" id="json_pratique_01"></h2>
-                <i class="text-center fa fa-info fa-4x text-very-clear" aria-hidden="true"></i>
+                <h2 class="slideanim text-center text-very-clear" id="json_pratique_01"></h2>
+                <i class="slideanim text-center fa fa-info fa-4x text-very-clear" aria-hidden="true"></i>
                 <br>
             </div>
             <div class="row">
@@ -387,17 +390,17 @@
         </div>
     </div>
 
-    <!-- EN PRATIQUE -------------------------->
+    &lt;!&ndash; EN PRATIQUE &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;
 
-    <hr>
+    <hr>-->
 
     <!-- SOINS ------------------------------>
 
     <div id="soins">
         <div class="container">
             <div class="row text-center">
-                <h2 id="json_care_01" class="text-very-clear"></h2>
-                <i class="fa fa-medkit fa-4x text-very-clear" aria-hidden="true"></i>
+                <h2 id="json_care_01" class="slideanim text-very-clear"></h2>
+                <i class="slideanim fa fa-medkit fa-4x text-very-clear" aria-hidden="true"></i>
                 <br>
                 <h3 id="json_care_02"></h3>
                 <h3 id="json_care_03"></h3>
@@ -496,52 +499,58 @@
 
     <!-- CONTACT ------------------------------>
 
-    <div id="contact">
+    <div id="contact" itemprop="contactPoints">
         <div class="container text-center">
-            <h2 id="json_contact_01" class="text-very-clear"></h2>
-            <i class="fa fa-envelope fa-4x text-very-clear" aria-hidden="true" text-very-clear></i>
+            <h2 id="json_contact_01" class="slideanim text-very-clear"></h2>
+            <i class="slideanim fa fa-envelope fa-4x text-very-clear" aria-hidden="true" text-very-clear></i>
             <br>
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <h3> Société Civile Cabinet Dentaire LOISEAU </h3>
-                    <h3> Rue Tour en bêche , 3 </h3>
-                    <h3> 4020 Liège</h3>
+                    <h3 itemprop="streetAddress"> Rue Tour en bêche , 3 </h3>
+                    <h3> <span itemprop="postalCode">4020</span> <span itemprop="addressLocality">Liège</span></h3>
+                    <h3>TVA 427997157</h3>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <h3><span class="glyphicon glyphicon-phone text-very-clear"></span> Tel: 32 (0) 4 342 26 26</h3>
+                    <h3 itemprop="telephone"><span class="glyphicon glyphicon-phone text-very-clear"></span> Tel: 32 (0) 4 342 26 26</h3>
                     <h3><span class="glyphicon glyphicon-envelope text-very-clear"></span>  Email général: secretariat.loiseau@hotmail.com </h3>
                     <h3><span class="glyphicon glyphicon-envelope text-very-clear"></span>  Email ortho: ortho.loiseau@hotmail.com </h3>
                 </div>
             </div>
             <br>
-            <div class="row text-center">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2 class="text-very-clear">Parking</h2>
-                    <i class="fa fa-car fa-4x text-very-clear" aria-hidden="true"></i>
-                </div>
-
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <div class="row text-center">
-                            <h2 class="text-very-clear">Google map</h2>
-                        </div>
-                        <div class="row">
-                            <div class="container" id="googleMap">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.461969566664!2d5.575793715922442!3d50.637110981778044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0fa065f20a397%3A0x7e8926f91a93e13a!2sCabinet+Dentaire+Loiseau+sprl!5e0!3m2!1sfr!2sbe!4v1496931161550" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>                        </div>
-                        </div>
-                    </div>
+                    <div class="container" id="googleMap" itemprop="geo">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.461969566664!2d5.575793715922442!3d50.637110981778044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0fa065f20a397%3A0x7e8926f91a93e13a!2sCabinet+Dentaire+Loiseau+sprl!5e0!3m2!1sfr!2sbe!4v1496931161550" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>                        </div>
                 </div>
-
-
             </div>
         </div>
     </div>
 
-
-
     <!-- CONTACT ------------------------------>
 
-    <br>
+    <hr>
+
+    <!-- PARKING ------------------------------>
+
+    <div id="parking" class="container>">
+        <div class=" text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2 class="text-very-clear">Parking</h2>
+            <i class="fa fa-car fa-4x text-very-clear" aria-hidden="true"></i>
+            <br>
+            <h3>Le cabinet Loiseau vous offre une heure gratuite de stationnement au parking de l'Aquarium, rue Méan 24. </h3>
+            <br>
+            <hr>
+        </div>
+
+
+    </div>
+
+    <!-- PARKING ------------------------------>
+
+    <hr>
 
     <!-- FOOTER ------------------------------->
 
@@ -597,6 +606,42 @@
             $('[data-toggle="popover"]').popover();
         });
     </script>
+
+    <script>
+        $(document).ready(function(){
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+                    // Store hash
+                    var hash = this.hash;
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function(){
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        })
+    </script>
+
+    <script>$(window).scroll(function() {
+        $(".slideanim").each(function(){
+            var pos = $(this).offset().top;
+
+            var winTop = $(window).scrollTop();
+            if (pos < winTop + 600) {
+                $(this).addClass("slide");
+            }
+        });
+    })
+    ;</script>
+
 
 <!-- SCRIPTS ------------------------------>
 
